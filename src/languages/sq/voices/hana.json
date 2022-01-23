@@ -1,0 +1,12 @@
+{
+"name": "Hana",
+"ctry2code": "MK",
+"ctry3code": "MKD",
+"demoUrl": "https://rhvoice.org/download/demo_android_hana.ogg",
+"version": {
+"major": 4,
+"minor": 4
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-LP-voice-Hana-v4.4.zip",
+"dataMd5": "xp4Np4ukrHBeWtc7BXzO0g=="
+}

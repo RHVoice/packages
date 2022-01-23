@@ -1,0 +1,9 @@
+{
+"name": "Russian",
+"version": {
+"major": 2,
+"minor": 10
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-language-Russian-v2.10.zip",
+"dataMd5": "1Ig0mPCmYWdK3/AJiBCZcw=="
+}

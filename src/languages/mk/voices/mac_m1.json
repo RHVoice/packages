@@ -1,0 +1,13 @@
+{
+"name": "Kiko",
+"id": "mac_m1",
+"ctry2code": "MK",
+"ctry3code": "MKD",
+"demoUrl": "https://rhvoice.org/download/demo_android_mac_m1.ogg",
+"version": {
+"major": 4,
+"minor": 7
+},
+"dataUrl": "https://rhvoice.org/download//RHVoice-voice-Macedonian-Kiko-v4.7.zip",
+"dataMd5": "SFE+u7R4pWepHPKkU+UcsA=="
+}

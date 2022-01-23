@@ -1,0 +1,12 @@
+{
+"name": "Vitaliy",
+"ctry2code": "RU",
+"ctry3code": "RUS",
+"demoUrl": "https://rhvoice.org/download/demo_android_vitaliy.ogg",
+"version": {
+"major": 4,
+"minor": 0
+},
+"dataUrl": "https://github.com/RHVoice/vitaliy-rus/releases/download/4.0/data.zip",
+"dataMd5": "JGas1U6ah36mOeiTh6AozQ=="
+}

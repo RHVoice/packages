@@ -1,0 +1,12 @@
+{
+"name": "Arina",
+"ctry2code": "RU",
+"ctry3code": "RUS",
+"demoUrl": "https://rhvoice.org/download/demo_android_arina.ogg",
+"version": {
+"major": 4,
+"minor": 0
+},
+"dataUrl": "https://github.com/RHVoice/arina-rus/releases/download/4.0/data.zip",
+"dataMd5": "hnxspjxo8Do408Fxh3eGMA=="
+}

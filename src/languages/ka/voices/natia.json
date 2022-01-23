@@ -1,0 +1,12 @@
+{
+"name": "Natia",
+"ctry2code": "GE",
+"ctry3code": "GEO",
+"demoUrl": "https://rhvoice.org/download/demo_android_natia.ogg",
+"version": {
+"major": 4,
+"minor": 0
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-voice-Georgian-Natia-v4.0.zip",
+"dataMd5": "l9lG9ylhbzpjD6jsFlKkPw=="
+}

@@ -1,0 +1,9 @@
+{
+"name": "English",
+"version": {
+"major": 2,
+"minor": 8
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-language-English-v2.8.zip",
+"dataMd5": "eFptOFRVOVxhPpzLuoj2OQ=="
+}

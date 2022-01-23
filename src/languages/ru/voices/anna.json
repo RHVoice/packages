@@ -1,0 +1,12 @@
+{
+"name": "Anna",
+"ctry2code": "RU",
+"ctry3code": "RUS",
+"demoUrl": "https://rhvoice.org/download/demo_android_anna.ogg",
+"version": {
+"major": 4,
+"minor": 1
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-voice-Russian-Anna-v4.1.zip",
+"dataMd5": "w8cZcM7Lnl+b8XYzN06cvw=="
+}

@@ -1,0 +1,12 @@
+{
+"name": "Aleksandr",
+"ctry2code": "RU",
+"ctry3code": "RUS",
+"demoUrl": "https://rhvoice.org/download/demo_android_aleksandr.ogg",
+"version": {
+"major": 4,
+"minor": 2
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-voice-Russian-Aleksandr-v4.2.zip",
+"dataMd5": "XXoN3Zr6Q8sawtNoGvnsHw=="
+}

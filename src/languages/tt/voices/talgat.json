@@ -1,0 +1,12 @@
+{
+"name": "Talgat",
+"ctry2code": "RU",
+"ctry3code": "RUS",
+"demoUrl": "https://rhvoice.org/download/demo_android_talgat.ogg",
+"version": {
+"major": 4,
+"minor": 0
+},
+"dataUrl": "https://rhvoice.org/download/Talgat/RHVoice-voice-Tatar-Talgat-v4.0.zip",
+"dataMd5": "/qufPbkHFo8MP3sym+WMhg=="
+}

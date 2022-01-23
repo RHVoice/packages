@@ -1,0 +1,12 @@
+{
+"name": "Lyubov",
+"ctry2code": "RU",
+"ctry3code": "RUS",
+"demoUrl": "https://rhvoice.org/download/demo_android_lyubov.ogg",
+"version": {
+"major": 4,
+"minor": 0
+},
+"dataUrl": "https://github.com/RHVoice/lyubov-eng/releases/download/4.0/data.zip",
+"dataMd5": "nrgFeBK3hutQk7Q+UlqTSg=="
+}

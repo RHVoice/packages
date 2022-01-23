@@ -1,0 +1,12 @@
+{
+"name": "Mikhail",
+"ctry2code": "RU",
+"ctry3code": "RUS",
+"demoUrl": "https://rhvoice.org/download/demo_android_mikhail.ogg",
+"version": {
+"major": 4,
+"minor": 0
+},
+"dataUrl": "https://github.com/RHVoice/mikhail-rus/releases/download/4.0/data.zip",
+"dataMd5": "zqCs6HF/c6pDkSiNKX4fNw=="
+}

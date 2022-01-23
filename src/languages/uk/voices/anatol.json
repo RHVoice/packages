@@ -1,0 +1,12 @@
+{
+"name": "Anatol",
+"ctry2code": "UA",
+"ctry3code": "UKR",
+"demoUrl": "https://rhvoice.org/download/demo_android_anatol.ogg",
+"version": {
+"major": 4,
+"minor": 1
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-voice-Ukrainian-Anatol-v4.1.zip",
+"dataMd5": "Psn45B1zN6vENH71mfC4DQ=="
+}

@@ -1,0 +1,35 @@
+#!/usr/bin/python
+
+import json as js
+from pathlib import Path
+from datetime import timedelta
+
+config=js.load(open("config.json", encoding="utf-8"))
+out_json="packages-{version}.json".format(**config)
+
+def set_id(o):
+    if "id" in o:
+        return
+    o["id"]=o["name"].lower().replace("-", "_")
+
+pkg_dir={"languages":[], "defaultVoices":{}}
+pkg_dir["ttl"]=int(timedelta(**config["ttl"]).total_seconds())
+
+langs_dir=Path("src/languages")
+for lang_dir in sorted(langs_dir.iterdir()):
+    vs_dir=lang_dir / "voices"
+    dv_file=lang_dir / "defaultVoices.json"
+    lang=js.load(open(lang_dir / "language.json", encoding="utf-8"))
+    if dv_file.exists():
+        pkg_dir["defaultVoices"][lang["lang2code"]]=js.load(open(dv_file, encoding="utf-8"))
+    lang.update(js.load(open(lang_dir / "impl.json", encoding="utf-8")))
+    set_id(lang)
+    lang["voices"]=[]
+    pkg_dir["languages"].append(lang)
+    for v_file in sorted(vs_dir.iterdir()):
+        v=js.load(open(v_file, encoding="utf-8"))
+        set_id(v)
+        lang["voices"].append(v)
+
+with open(out_json, "w", encoding="utf-8") as f:
+    js.dump(pkg_dir, f, ensure_ascii=False, indent=0)

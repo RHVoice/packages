@@ -1,0 +1,12 @@
+{
+"name": "Irina",
+"ctry2code": "RU",
+"ctry3code": "RUS",
+"demoUrl": "https://rhvoice.org/download/demo_android_irina.ogg",
+"version": {
+"major": 4,
+"minor": 1
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-voice-Russian-Irina-v4.1.zip",
+"dataMd5": "cbfxD6AxqSyy52giKVHMhw=="
+}

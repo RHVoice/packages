@@ -1,0 +1,12 @@
+{
+"name": "SLT",
+"ctry2code": "US",
+"ctry3code": "USA",
+"demoUrl": "https://rhvoice.org/download/demo_android_slt.ogg",
+"version": {
+"major": 4,
+"minor": 0
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-voice-English-SLT-v4.0.zip",
+"dataMd5": "QKnnzCNv3gMYMCgds4hxbQ=="
+}

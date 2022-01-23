@@ -1,0 +1,12 @@
+{
+"name": "Evgeniy-Rus",
+"ctry2code": "RU",
+"ctry3code": "RUS",
+"demoUrl": "https://rhvoice.org/download/demo_android_evgeniy_rus.ogg",
+"version": {
+"major": 4,
+"minor": 0
+},
+"dataUrl": "https://github.com/RHVoice/evgeniy-rus/releases/download/4.0/data.zip",
+"dataMd5": "XJEc88uM6bmB7w77+iA2gA=="
+}

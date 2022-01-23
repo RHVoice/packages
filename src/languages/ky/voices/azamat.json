@@ -1,0 +1,12 @@
+{
+"name": "Azamat",
+"ctry2code": "KG",
+"ctry3code": "KGZ",
+"demoUrl": "https://rhvoice.org/download/demo_android_azamat.ogg",
+"version": {
+"major": 4,
+"minor": 0
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-voice-Kyrgyz-Azamat-v4.0.zip",
+"dataMd5": "snFB0XHadLJsnccpnCooCw=="
+}

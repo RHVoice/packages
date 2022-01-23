@@ -1,0 +1,13 @@
+{
+"name": "Alan",
+"ctry2code": "GB",
+"ctry3code": "GBR",
+"accent": "Scotland",
+"demoUrl": "https://rhvoice.org/download/demo_android_alan.ogg",
+"version": {
+"major": 4,
+"minor": 0
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-voice-English-Alan-v4.0.zip",
+"dataMd5": "Kt8qf8WHum+Kcbetp4HtZQ=="
+}

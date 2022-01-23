@@ -1,0 +1,12 @@
+{
+"name": "Tatiana",
+"ctry2code": "RU",
+"ctry3code": "RUS",
+"demoUrl": "https://rhvoice.org/download/demo_android_tatiana.ogg",
+"version": {
+"major": 4,
+"minor": 0
+},
+"dataUrl": "https://github.com/RHVoice/tatiana-rus/releases/download/4.0/data.zip",
+"dataMd5": "CxXykyy+3U/88dSMWtyxtw=="
+}

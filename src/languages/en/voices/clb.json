@@ -1,0 +1,12 @@
+{
+"name": "CLB",
+"ctry2code": "US",
+"ctry3code": "USA",
+"demoUrl": "https://rhvoice.org/download/demo_android_clb.ogg",
+"version": {
+"major": 4,
+"minor": 0
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-voice-English-CLB-v4.0.zip",
+"dataMd5": "scMEZGjJ+2X+lgDOPQ5zBA=="
+}
