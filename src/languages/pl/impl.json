@@ -2,8 +2,8 @@
 "name": "Polish",
 "version": {
 "major": 1,
-"minor": 6
+"minor": 7
 },
-"dataUrl": "https://zlotowicz.pl/files/RHVoice-language-Polish-v1.6.zip",
-"dataMd5": "jnyI7Fr6rdjZ+T+r3OEA3w=="
+"dataUrl": "https://github.com/RHVoice/Polish/releases/download/1.7/RHVoice-language-Polish-v1.7.zip",
+"dataMd5": "fMwArbU6Y9vWpwkg73/uEA=="
 }
