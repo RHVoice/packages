@@ -1,5 +1,6 @@
 {
 "name": "Polish",
+  "pseudoEnglish": false,
 "version": {
 "major": 1,
 "minor": 8
