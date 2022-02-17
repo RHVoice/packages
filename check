@@ -1,0 +1,61 @@
+#!/usr/bin/python
+
+from sys import argv
+import json as js
+from pathlib import Path
+import re
+from subprocess import check_call
+from tempfile import TemporaryDirectory
+import base64
+import hashlib
+import zipfile
+
+def check_info(desc, type, pkg_file):
+    with zipfile.ZipFile(pkg_file) as zf:
+        text=zipfile.Path(zf, type+".info").read_text(encoding="utf-8")
+        info=dict(re.findall(r"^\s*(\S+)\s*=\s*(\S+)\s*$", text, re.MULTILINE))
+    if type=="language":
+        assert(desc["name"]==info["name"])
+    assert(desc["version"]["major"]==int(info["format"]))
+    assert(desc["version"]["minor"]==int(info["revision"]))
+
+def download_add_verify(desc, type, tmp):
+    expected_hash=base64.decodebytes(desc["dataMd5"].encode())
+    pkg_file=Path(tmp) / (type+".zip")
+    check_call(["curl", "-L", "-o", pkg_file, desc["dataUrl"]])
+    h=hashlib.md5()
+    with pkg_file.open("rb") as f:
+        while(b:=f.read(1024)):
+            h.update(b)
+    actual_hash=h.digest()
+    assert(expected_hash==actual_hash)
+    check_info(desc, type, pkg_file)
+    return pkg_file
+
+def check_language(desc, tmp):
+    assert("name" in desc)
+    assert(re.match("^[a-z]{2}$", desc["lang2code"]))
+    assert(re.match("^[a-z]{3}$", desc["lang3code"]))
+    assert("testMessage" in desc)
+    download_add_verify(desc, "language", tmp)
+
+def check_voice(desc, tmp):
+    assert("name" in desc)
+    assert(re.match("^[a-zA-Z]{2}$", desc["ctry2code"]))
+    assert(re.match("^[a-zA-Z]{3}$", desc["ctry3code"]))
+    download_add_verify(desc, "voice", tmp)
+
+lang_arg=argv[1]
+voice_arg=argv[2] if len(argv) > 2 else None
+lang_dir=Path("src") / "languages" / lang_arg
+with TemporaryDirectory() as tmp:
+    if voice_arg:
+        print("Checking voice.")
+        voice_desc=js.loads((lang_dir / "voices" / (voice_arg+".json")).read_text(encoding="utf-8"))
+        check_voice(voice_desc, tmp)
+    else:
+        print("Checking language.")
+        lang_desc=js.loads((lang_dir / "language.json").read_text(encoding="utf-8"))
+        lang_desc.update(js.loads((lang_dir / "impl.json").read_text(encoding="utf-8")))
+        check_language(lang_desc, tmp)
+print("All seems OK!")

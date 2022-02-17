@@ -1,5 +1,6 @@
 {
-"name": "Georgian",
+  "name": "Georgian",
+  "pseudoEnglish": true,
 "version": {
 "major": 1,
 "minor": 12

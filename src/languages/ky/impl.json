@@ -1,5 +1,6 @@
 {
-"name": "Kyrgyz",
+  "name": "Kyrgyz",
+  "pseudoEnglish": true,
 "version": {
 "major": 1,
 "minor": 19

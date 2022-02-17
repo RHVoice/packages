@@ -1,5 +1,6 @@
 {
-"name": "Ukrainian",
+  "name": "Ukrainian",
+  "pseudoEnglish": true,
 "version": {
 "major": 1,
 "minor": 13
