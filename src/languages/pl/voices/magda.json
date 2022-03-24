@@ -2,11 +2,11 @@
 "name": "Magda",
 "ctry2code": "pl",
 "ctry3code": "POL",
-"demoUrl": "https://github.com/RHVoice/magda-pol/releases/download/rev41/demo-magda.ogg",
+"demoUrl": "https://github.com/RHVoice/magda-pol/releases/download/rev42/demo-magda.ogg",
 "version": {
 "major": 4,
-"minor": 41
+"minor": 42
 },
-"dataUrl": "https://github.com/RHVoice/magda-pol/releases/download/rev41/RHVoice-voice-Polish-Magda-v4.41.zip",
-"dataMd5": "VOt6VD18gnWFAK0BgLg6Bw=="
+"dataUrl": "https://github.com/RHVoice/magda-pol/releases/download/rev42/RHVoice-voice-Polish-Magda-v4.42.zip",
+"dataMd5": "K8ynscnQsK7GYh3y+NQoFQ=="
 }
