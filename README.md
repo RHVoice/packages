@@ -8,7 +8,7 @@ is the language and voice packages.
 The information about each language or voice is stored in one or more
 separate json files (see the src/ directory).
 
-The build script creates a ssingle json file merging all the
+The build script creates a single json file merging all the
 information. This file itself is not tracked by git, but when one of
 the source files is updated and the update is approved, the newly
 generated single json will be uploaded to our server. This file will
@@ -20,34 +20,139 @@ features only available in a later version of the RHVoice core.
 
 ## Branches and versions
 
-The main branch is for testing the updates before making them
-available to the stable versions of RHVoice. There will be multiple
-stable branches where the updates will be cherry-picked once they are
-considered ready for general use. There is one such branch right now,
-named 1.8. If a new feature is introduced in the RHVoice core which
-could make a new voice or language incompattible with older
-builds of RHVoice, a new branch will be created, corresponding to that
-version of RHVoice.
+### Main
+
+Any updates first appear in this branch. No users will have access to
+them at this point. This is for testing by developers.
+
+### Alpha
+
+When an update has been tested by the developers, it will be
+cherry-picked into the alpha branch. The json file built from this
+branch is used by the Alpha version of the RHVoice app, so the updates
+to this branch will be available to the testers using that version of
+the app.
+
+### Stable branches
+
+When the update is considered ready for general use, it will be
+cherry-picked into one or more of the stable branches. The only such
+branch so far is 1.8. But future updates of the RHVoice core may make
+it necessary to introduce new stable branches. Contributors will need
+to document the usage of any core features introduced after RHVoice
+v1.8.
+
+The production version of the app will contain the latest core and use
+the data from the most recent stable branch.
 
 ## For contributors
 
-If you want to publish a new voice or aan update to the existing
+If you want to publish a new voice or an update to the existing
 language or voice, follow these steps.
 
-1. Make sure that each of your commits changes only one language or
-   one voice at a time, so individual changes are easy to track and
-   revert if necessary.
+### Create the package.
 
-2. Create a pull request to the main branch. When this request is
-   reviewed, approved and merged, the updated single json file will be
-   made available to the development versions of RHVoice. Right now it
-   means the alpha version of the app for Android.
+Packages are simply zip archives of the data. Everything in your
+data/languages/&lt;language&gt; or data/voices/&lt;voice&gt; directory goes into
+the archive. If you compile under Linux or Windows, you will find a
+ready-made archive in build/linux/packages/zip or build/windows/packages/zip.
 
-3. If a problem is discovered by the testers and a fix is
-   implemented, create a new pull request with your changes.
+### Upload your package
 
-4. After the update and possible fixes have been tested, the
-   maintainer of this repository will merge the changes into the
-   appropriate stable branches and upload the json to the server. If
-   you feel this is taking too long, please open an issue.
+You need to provide or arrange the hosting for your packages.
+
+The server hosting your packages must support https.
+
+### Upload the voice demo clip if necessary
+
+If you are contributing a new voice or have updated an existing voice
+such that it has changed the way it sounds, synthesize the
+language-specific demo text and upload the clip. The audio file must be in either Ogg Vorbis or MP3 format.
+
+If you are contributing a language, please help us extend this table with a demo message for your language. Just translate the English message.
+
+Language | Text
+---|---
+en | This voice is not installed. You are listening to a pre-recorded sample.
+eo | Ĉi tiu voĉo ne estas instalita. Vi aŭskultas antaŭregistritan ekzemplon.
+ka | ეს ხმა არ არის დაინსტალირებული. თქვენ უსმენთ წინასწარ ჩაწერილ მაგალითს.
+ky | Бул үн орнотулган эмес. Сиз алдын ала жазылган үндү угуп жатасыз.
+mk | Овој глас не е инсталиран. Слушате претходно снимен примерок.
+pt | Esta voz não está instalada. Você está escutando uma amostra pré-gravada.
+ru | Этот голос не установлен. Вы слушаете заранее записанный пример.
+sq | Ky zë nuk është i instaluar. Po dëgjoni një shembull të regjistruar paraprakisht.
+tt | Бу тавыш җиһазга урнаштырылмаган. Сез алдан яздырылган мисалны тыңлыйсыз.
+uk | Цей голос не встановлено. Ви слухаєте попередньо записаний приклад.
+
+### Create or update the json file describing your package.
+
+See the existing files in the src directory for examples.
+
+Some notes on the expected formats of values:
+
+* Two-letter language codes are ISO 639-1 codes.
+* Three-letter language codes are ISO 639-3 codes.
+* Country codes are ISO 3166 codes.
+* MD5 hashes are encoded as Base64.
+
+### Check your changes
+
+#### Simple automated check
+
+Let's imagine your two-letter language code is xy. And, if you have
+created or updated a voice, you've saved the information about it in src/languages/xy/voices/myvoice.json.
+
+Now let's run the check.
+
+If you are publishing a language, run:
+```./check xy```
+
+If you are publishing a voice, run:
+```./check xy myvoice```
+
+The script will do some basic checks, including downloading your
+package and verifying that the hash matches.
+
+#### Runtime testing
+
+Before your contribution is made available to the Alpha testers, you
+must test it on an Android device and confirm that it works as
+expected and causes no major issues, such as an RHVoice crash.
+
+1. Build the package directory:
+   ```./build```
+2. Upload the packages-dev.json, created by the previous command, somewhere.
+3. Setup the build environment to build the RHVoice app.
+4. Create or edit ~/.gradle/gradle.properties, configuring the url to
+download the package directory:
+    ```
+        RHVoice.devPkgDirUrl=<url>
+        ```
+5. Build the development flavour of the app
+   ```./gradlew assembleDevDebug```
+6. Install and test the app you have built, on an Android device with your voice.
+
+### Make a pull request
+
+Make a pull request to the main branch. When it's merged, the
+maintainer will also upload the development package directory.
+Make a final test of the development app build with the url pointing
+to that directory. The build process is the same, except the
+RHVoice.devPkgDirUrl property must not be set.
+
+### Alpha testing
+
+When you are sure your update is ready for testing by users, leave a
+comment confirming it in the pull request.
+
+When the update is available in the Alpha version of the app, there
+will be a comment about it in the same pull request.
+
+Gather feedback from the testers. If necessary and possible, fix the
+issues and publish the fixes.
+
+### Publishing to production
+
+When your update is ready for use by the general public, open an
+issue in this repository requesting the publication. Your package will be made available to the stable version of the app.
 
