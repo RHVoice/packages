@@ -2,11 +2,11 @@
 "name": "Magda",
 "ctry2code": "pl",
 "ctry3code": "POL",
-"demoUrl": "https://zlotowicz.pl/files/demo_magda.ogg",
+"demoUrl": "https://github.com/RHVoice/magda-pol/releases/download/rev42/demo-magda.ogg",
 "version": {
 "major": 4,
-"minor": 24
+"minor": 42
 },
-"dataUrl": "https://github.com/RHVoice/magda-pol/releases/download/rev24/RHVoice-voice-Polish-Magda-v4.24.zip",
-"dataMd5": "L7V8j36qeZkDcSA+sXgRBg=="
+"dataUrl": "https://github.com/RHVoice/magda-pol/releases/download/rev42/RHVoice-voice-Polish-Magda-v4.42.zip",
+"dataMd5": "K8ynscnQsK7GYh3y+NQoFQ=="
 }
