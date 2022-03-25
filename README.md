@@ -128,7 +128,7 @@ expected and causes no major issues, such as an RHVoice crash.
    ```
    RHVoice.devPkgDirUrl=<url>
    ```
-5. Build the development flavour of the app
+5. Build the development flavour of the app:
    ```./gradlew assembleDevDebug```
 6. Install and test the app you have built, on an Android device with your voice.
 
