@@ -124,10 +124,10 @@ expected and causes no major issues, such as an RHVoice crash.
 2. Upload the packages-dev.json, created by the previous command, somewhere.
 3. Setup the build environment to build the RHVoice app.
 4. Create or edit ~/.gradle/gradle.properties, configuring the url to
-download the package directory:
-    ```
-        RHVoice.devPkgDirUrl=<url>
-        ```
+   download the package directory:
+   ```
+   RHVoice.devPkgDirUrl=<url>
+   ```
 5. Build the development flavour of the app
    ```./gradlew assembleDevDebug```
 6. Install and test the app you have built, on an Android device with your voice.
