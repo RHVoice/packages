@@ -93,7 +93,12 @@ Some notes on the expected formats of values:
 * Two-letter language codes are ISO 639-1 codes.
 * Three-letter language codes are ISO 639-3 codes.
 * Country codes are ISO 3166 codes.
-* MD5 hashes are encoded as Base64.
+* MD5 hashes are encoded as Base64. For example, you could use the
+  following command to generate the hash, if you have openssl and
+  base64 programs installed on your Linux system:
+  ```
+  openssl md5 -binary <YourPackageFile> | base64
+  ```
 
 ### Check your changes
 
