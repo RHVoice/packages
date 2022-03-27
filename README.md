@@ -153,6 +153,13 @@ comment confirming it in the pull request.
 When the update is available in the Alpha version of the app, there
 will be a comment about it in the same pull request.
 
+The testing is done as a closed test on Google Play, so you need to
+find testers for your voice and provide us with their gmail addresses
+in an email to rhvoice@rhvoice.org.
+
+When we register your testers, they will have to use the special link we will
+send to you to confirm to Google that they really want to become testers.
+
 Gather feedback from the testers. If necessary and possible, fix the
 issues and publish the fixes.
 
