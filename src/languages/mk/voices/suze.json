@@ -1,0 +1,13 @@
+{
+"name": "Suze",
+"id": "suze",
+"ctry2code": "MK",
+"ctry3code": "MKD",
+"demoUrl": "https://github.com/RHVoice/suze-mkd/releases/download/v4.1/rh_voice_suze_pub_pyworld_24k.ogg",
+"version": {
+"major": 4,
+"minor": 1
+},
+"dataUrl": "https://github.com/RHVoice/suze-mkd/releases/download/v4.1/RHVoice-voice-Macedonian-Suze-v4.1.zip",
+"dataMd5": "sLSzmIVWBP9ktrMzifp6gA=="
+}
