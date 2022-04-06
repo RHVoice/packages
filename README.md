@@ -78,6 +78,7 @@ eo | Ĉi tiu voĉo ne estas instalita. Vi aŭskultas antaŭregistritan ekzemplon
 ka | ეს ხმა არ არის დაინსტალირებული. თქვენ უსმენთ წინასწარ ჩაწერილ მაგალითს.
 ky | Бул үн орнотулган эмес. Сиз алдын ала жазылган үндү угуп жатасыз.
 mk | Овој глас не е инсталиран. Слушате претходно снимен примерок.
+pl | Ten głos nie jest zainstalowany. Słuchasz jego gotowej próbki.
 pt | Esta voz não está instalada. Você está escutando uma amostra pré-gravada.
 ru | Этот голос не установлен. Вы слушаете заранее записанный пример.
 sq | Ky zë nuk është i instaluar. Po dëgjoni një shembull të regjistruar paraprakisht.
