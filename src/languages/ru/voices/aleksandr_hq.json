@@ -2,11 +2,11 @@
 "name": "Aleksandr-hq",
 "ctry2code": "RU",
 "ctry3code": "RUS",
-"demoUrl": "https://rhvoice.org/download/demo_android_aleksandr_hq.ogg",
+"demoUrl": "https://github.com/RHVoice/aleksandr-hq-rus/releases/download/4.1/demo.ogg",
 "version": {
 "major": 4,
-"minor": 0
+"minor": 1
 },
-"dataUrl": "https://github.com/RHVoice/aleksandr-hq-rus/releases/download/4.0/data.zip",
-"dataMd5": "7kKpW1E49OaDQkzb+VP6nw=="
+"dataUrl": "https://github.com/RHVoice/aleksandr-hq-rus/releases/download/4.1/data.zip",
+"dataMd5": "3eKWLyRsWBOpBWY2arA6+w=="
 }
