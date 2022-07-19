@@ -2,11 +2,11 @@
 "name": "Natan",
 "ctry2code": "pl",
 "ctry3code": "POL",
-"demoUrl": "https://github.com/RHVoice/natan-pol/releases/download/v4.7/demo_natan.ogg",
+"demoUrl": "https://github.com/RHVoice/natan-pol/releases/download/v4.9/demo.ogg",
 "version": {
 "major": 4,
-"minor": 8
+"minor": 9
 },
-"dataUrl": "https://github.com/RHVoice/natan-pol/releases/download/v4.8/RHVoice-voice-Polish-Natan-v4.8.zip",
-"dataMd5": "7/EsqB79OGW2aoFe52tZ8w=="
+"dataUrl": "https://github.com/RHVoice/natan-pol/releases/download/v4.9/RHVoice-voice-Polish-Natan-v4.9.zip",
+"dataMd5": "MM8sv0pdqxnIW+Rmqopreg=="
 }
