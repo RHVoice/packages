@@ -2,11 +2,11 @@
 "name": "Volodymyr",
 "ctry2code": "UA",
 "ctry3code": "UKR",
-"demoUrl": "https://rhvoice.org/download/demo_android_volodymyr.ogg",
+"demoUrl": "https://github.com/RHVoice/volodymyr-ukr/releases/download/4.1/demo.ogg",
 "version": {
 "major": 4,
-"minor": 0
+"minor": 1
 },
-"dataUrl": "https://github.com/RHVoice/volodymyr-ukr/releases/download/4.0/data.zip",
-"dataMd5": "oh0J0yh6BaSn+wrBz0x0kA=="
+"dataUrl": "https://github.com/RHVoice/volodymyr-ukr/releases/download/4.1/data.zip",
+"dataMd5": "nSL3KYm3vFgkOvLklyatxg=="
 }
