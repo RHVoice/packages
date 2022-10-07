@@ -1,0 +1,12 @@
+{
+"name": "Alicja",
+"ctry2code": "pl",
+"ctry3code": "POL",
+"demoUrl": "https://github.com/RHVoice/alicja-pol/releases/download/v4.1/alicja.ogg",
+"version": {
+"major": 4,
+"minor": 1
+},
+"dataUrl": "https://github.com/RHVoice/alicja-pol/releases/download/v4.1/data-alicja.zip",
+"dataMd5": "qZtzyaBMo34T577rugNB1w=="
+}
