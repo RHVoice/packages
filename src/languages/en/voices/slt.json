@@ -2,11 +2,11 @@
 "name": "SLT",
 "ctry2code": "US",
 "ctry3code": "USA",
-"demoUrl": "https://rhvoice.org/download/demo_android_slt.ogg",
+"demoUrl": "https://github.com/RHVoice/slt-eng/releases/download/4.1/demo.ogg",
 "version": {
 "major": 4,
-"minor": 0
+"minor": 1
 },
-"dataUrl": "https://rhvoice.org/download/RHVoice-voice-English-SLT-v4.0.zip",
-"dataMd5": "QKnnzCNv3gMYMCgds4hxbQ=="
+"dataUrl": "https://github.com/RHVoice/slt-eng/releases/download/4.1/data.zip",
+"dataMd5": "q/y3RP3yxPV2v9o8kLXB3g=="
 }
