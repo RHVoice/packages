@@ -3,8 +3,8 @@
   "pseudoEnglish": true,
 "version": {
 "major": 1,
-"minor": 14
+"minor": 16
 },
-"dataUrl": "https://rhvoice.org/download/RHVoice-language-Ukrainian-v1.14.zip",
-"dataMd5": "gEvEseElfKKa8nv5GA6mhA=="
+"dataUrl": "https://github.com/RHVoice/Ukrainian/releases/download/16/RHVoice-language-Ukrainian-v1.16.zip",
+"dataMd5": "NSJ1iBYblIEmK8apRX+JGQ=="
 }

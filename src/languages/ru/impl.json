@@ -3,8 +3,8 @@
   "pseudoEnglish": true,
 "version": {
 "major": 2,
-"minor": 11
+"minor": 12
 },
-"dataUrl": "https://rhvoice.org/download/RHVoice-language-Russian-v2.11.zip",
-"dataMd5": "0sWHndYDO0bYAiS475r6bg=="
+"dataUrl": "https://github.com/RHVoice/Russian/releases/download/12/RHVoice-language-Russian-v2.12.zip",
+"dataMd5": "LkdpSrZtWl/nMBe1E7TW6A=="
 }
