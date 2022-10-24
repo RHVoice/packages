@@ -3,8 +3,8 @@
   "pseudoEnglish": true,
 "version": {
 "major": 1,
-"minor": 12
+"minor": 13
 },
-"dataUrl": "https://rhvoice.org/download/RHVoice-language-Georgian-v1.12.zip",
-"dataMd5": "AZsA2eikYkV9IkdkBg9vWw=="
+"dataUrl": "https://github.com/RHVoice/Georgian/releases/download/13/RHVoice-language-Georgian-v1.13.zip",
+"dataMd5": "5BYe16TsC8pLa531cru7Eg=="
 }

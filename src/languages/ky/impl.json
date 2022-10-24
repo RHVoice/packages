@@ -3,8 +3,8 @@
   "pseudoEnglish": true,
 "version": {
 "major": 1,
-"minor": 19
+"minor": 20
 },
-"dataUrl": "https://rhvoice.org/download/RHVoice-language-Kyrgyz-v1.19.zip",
-"dataMd5": "LcJ8wPyg+/qJPcmTVzad5g=="
+"dataUrl": "https://github.com/RHVoice/Kyrgyz/releases/download/20/RHVoice-language-Kyrgyz-v1.20.zip",
+"dataMd5": "XeBeHMgsbaUTZtiSgnjbtw=="
 }
