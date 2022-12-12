@@ -1,0 +1,12 @@
+{
+"name": "Cezary",
+"ctry2code": "pl",
+"ctry3code": "POL",
+"demoUrl": "https://github.com/RHVoice/cezary-pol/releases/download/v4.0/demo-cezary.ogg",
+"version": {
+"major": 4,
+"minor": 0
+},
+"dataUrl": "https://github.com/RHVoice/cezary-pol/releases/download/v4.0/RHVoice-voice-Polish-Cezary-v4.0.zip",
+"dataMd5": "8VbVwOYGKRSDRnL7+MMclg=="
+}
