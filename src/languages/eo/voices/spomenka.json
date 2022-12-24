@@ -2,11 +2,11 @@
 "name": "Spomenka",
 "ctry2code": "",
 "ctry3code": "",
-"demoUrl": "https://rhvoice.org/download/demo_android_spomenka.ogg",
+"demoUrl": "https://github.com/RHVoice/spomenka-epo/releases/download/4.1/demo-spomenka.ogg",
 "version": {
 "major": 4,
-"minor": 0
+"minor": 1
 },
-"dataUrl": "https://rhvoice.org/download/RHVoice-voice-Esperanto-Spomenka-v4.0.zip",
-"dataMd5": "y0UyA1U4P7C/apuR6DELXg=="
+"dataUrl": "https://github.com/RHVoice/spomenka-epo/releases/download/4.1/data.zip",
+"dataMd5": "OqJAINj3N8eD+H7lCJc0AQ=="
 }
