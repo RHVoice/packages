@@ -2,11 +2,11 @@
 "name": "Natalia",
 "ctry2code": "UA",
 "ctry3code": "UKR",
-"demoUrl": "https://github.com/RHVoice/natalia-ukr/releases/download/v4.1/natalia.ogg",
+"demoUrl": "https://github.com/RHVoice/natalia-ukr/releases/download/4.2/demo-natalia.ogg",
 "version": {
 "major": 4,
-"minor": 1
+"minor": 2
 },
-"dataUrl": "https://github.com/RHVoice/natalia-ukr/releases/download/v4.1/data.zip",
-"dataMd5": "r0mE8qM8RRgJmeR21V8neg=="
+"dataUrl": "https://github.com/RHVoice/natalia-ukr/releases/download/4.2/data.zip",
+"dataMd5": "nAfTuC/fv/dvcgrBKoVjwg=="
 }
