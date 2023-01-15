@@ -1,0 +1,12 @@
+{
+"name": "Vsevolod",
+"ctry2code": "RU",
+"ctry3code": "RUS",
+"demoUrl": "https://github.com/RHVoice/vsevolod-rus/releases/download/v4.0/demo-vsevolod.ogg",
+"version": {
+"major": 4,
+"minor": 0
+},
+"dataUrl": "https://github.com/RHVoice/vsevolod-rus/releases/download/v4.0/data.zip",
+"dataMd5": "9gcTcAmUkLojmT0syS8zjA=="
+}
