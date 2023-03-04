@@ -2,11 +2,11 @@
 "name": "Cezary",
 "ctry2code": "pl",
 "ctry3code": "POL",
-"demoUrl": "https://github.com/RHVoice/cezary-pol/releases/download/v4.0/demo-cezary.ogg",
+"demoUrl": "https://github.com/RHVoice/cezary-pol/releases/download/4.1/demo-cezary.ogg",
 "version": {
 "major": 4,
-"minor": 0
+"minor": 1
 },
-"dataUrl": "https://github.com/RHVoice/cezary-pol/releases/download/v4.0/RHVoice-voice-Polish-Cezary-v4.0.zip",
-"dataMd5": "8VbVwOYGKRSDRnL7+MMclg=="
+"dataUrl": "https://github.com/RHVoice/cezary-pol/releases/download/4.1/RHVoice-voice-Polish-Cezary-v4.1.zip",
+"dataMd5": "JwFfEX8mRQn/I8nnk6TOtw=="
 }
