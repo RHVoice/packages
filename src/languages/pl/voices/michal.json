@@ -2,11 +2,11 @@
 "name": "Michal",
 "ctry2code": "pl",
 "ctry3code": "POL",
-"demoUrl": "https://github.com/RHVoice/michal-pol/releases/download/4.0/demo-michal.ogg",
+"demoUrl": "https://github.com/RHVoice/michal-pol/releases/download/4.2/demo-michal.ogg",
 "version": {
 "major": 4,
-"minor": 0
+"minor": 2
 },
-"dataUrl": "https://github.com/RHVoice/michal-pol/releases/download/4.0/data-michal.zip",
-"dataMd5": "LYlnP2zTMQSzbTZFPIq7YQ=="
+"dataUrl": "https://github.com/RHVoice/michal-pol/releases/download/4.2/RHVoice-voice-Polish-Michal-v4.2.zip",
+"dataMd5": "D6w2cFc2yz1zArkZHTnaKA=="
 }
