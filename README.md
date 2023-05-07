@@ -73,6 +73,7 @@ If you are contributing a language, please help us extend this table with a demo
 
 Language | Text
 ---|---
+cs | Tento hlas není nainstalován. Posloucháte předem nahraný vzorek.
 en | This voice is not installed. You are listening to a pre-recorded sample.
 eo | Ĉi tiu voĉo ne estas instalita. Vi aŭskultas antaŭregistritan ekzemplon.
 ka | ეს ხმა არ არის დაინსტალირებული. თქვენ უსმენთ წინასწარ ჩაწერილ მაგალითს.
