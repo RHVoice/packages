@@ -1,0 +1,10 @@
+{
+  "name": "Uzbek",
+  "pseudoEnglish": false,
+"version": {
+"major": 1,
+"minor": 5
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-language-Uzbek-v1.5.zip",
+"dataMd5": "5DPDFeC6mykuNpw0MvLDuw=="
+}
