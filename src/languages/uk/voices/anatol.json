@@ -2,11 +2,11 @@
 "name": "Anatol",
 "ctry2code": "UA",
 "ctry3code": "UKR",
-"demoUrl": "https://github.com/RHVoice/anatol-ukr/releases/download/4.1/anatol.ogg",
+"demoUrl": "https://github.com/RHVoice/anatol-ukr/releases/download/4.3/demo-anatol.ogg",
 "version": {
 "major": 4,
-"minor": 2
+"minor": 3
 },
-"dataUrl": "https://github.com/RHVoice/anatol-ukr/releases/download/4.1/RHVoice-voice-Ukrainian-Anatol-v4.2.zip",
-"dataMd5": "9OKFourx7E8KUY59UAzXjw=="
+"dataUrl": "https://github.com/RHVoice/anatol-ukr/releases/download/4.3/RHVoice-voice-Ukrainian-Anatol-v4.3.zip",
+"dataMd5": "oH0du6y6AsrYr+VUjdh3Tw=="
 }
