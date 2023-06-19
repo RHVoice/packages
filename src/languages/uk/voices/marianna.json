@@ -2,11 +2,11 @@
 "name": "Marianna",
 "ctry2code": "UA",
 "ctry3code": "UKR",
-"demoUrl": "https://github.com/RHVoice/marianna-ukr/releases/download/4.1/demo-marianna.ogg",
+"demoUrl": "https://github.com/RHVoice/marianna-ukr/releases/download/4.2/demo-marianna.ogg",
 "version": {
 "major": 4,
-"minor": 1
+"minor": 2
 },
-"dataUrl": "https://github.com/RHVoice/marianna-ukr/releases/download/4.1/data.zip",
-"dataMd5": "CbQtjCmfxpC2dQemj7wgOg=="
+"dataUrl": "https://github.com/RHVoice/marianna-ukr/releases/download/4.2/RHVoice-voice-Ukrainian-Marianna-v4.2.zip",
+"dataMd5": "Varsl4EhMsi/bkjec/G9cA=="
 }
