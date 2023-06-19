@@ -2,11 +2,11 @@
 "name": "Natalia",
 "ctry2code": "UA",
 "ctry3code": "UKR",
-"demoUrl": "https://github.com/RHVoice/natalia-ukr/releases/download/4.2/demo-natalia.ogg",
+"demoUrl": "https://github.com/RHVoice/natalia-ukr/releases/download/4.3/demo-natalia.ogg",
 "version": {
 "major": 4,
-"minor": 2
+"minor": 3
 },
-"dataUrl": "https://github.com/RHVoice/natalia-ukr/releases/download/4.2/data.zip",
-"dataMd5": "nAfTuC/fv/dvcgrBKoVjwg=="
+"dataUrl": "https://github.com/RHVoice/natalia-ukr/releases/download/4.3/RHVoice-voice-Ukrainian-Natalia-v4.3.zip",
+"dataMd5": "C7XYwUMjyv6ynv6pmoKxDQ=="
 }
