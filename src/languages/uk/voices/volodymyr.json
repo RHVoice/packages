@@ -2,11 +2,11 @@
 "name": "Volodymyr",
 "ctry2code": "UA",
 "ctry3code": "UKR",
-"demoUrl": "https://github.com/RHVoice/volodymyr-ukr/releases/download/4.1/demo.ogg",
+"demoUrl": "https://github.com/RHVoice/volodymyr-ukr/releases/download/4.2/demo-Volodymyr.ogg",
 "version": {
 "major": 4,
-"minor": 1
+"minor": 2
 },
-"dataUrl": "https://github.com/RHVoice/volodymyr-ukr/releases/download/4.1/data.zip",
-"dataMd5": "nSL3KYm3vFgkOvLklyatxg=="
+"dataUrl": "https://github.com/RHVoice/volodymyr-ukr/releases/download/4.2/RHVoice-voice-Ukrainian-Volodymyr-v4.2.zip",
+"dataMd5": "MLYkk8agqOBI1VkpoXqQBg=="
 }
