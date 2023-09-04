@@ -86,7 +86,7 @@ sk | Tento hlas nie je ešte nainštalovaný. Počúvate ukážkovú nahrávku s
 sq | Ky zë nuk është i instaluar. Po dëgjoni një shembull të regjistruar paraprakisht.
 tt | Бу тавыш җиһазга урнаштырылмаган. Сез алдан яздырылган мисалны тыңлыйсыз.
 uk | Цей голос не встановлено. Ви слухаєте попередньо записаний приклад.
-uz | Agar siz bu xabarni eshitayotgan bo'lsangiz - demak ovoz muvaffaqqiyatli o'rnatilgan va ishlayapti.
+uz | ушбу овоз ўрнатилмаган, сиз аввалдан тайёрланган намунани тинглаяпсиз.
 
 ### Create or update the json file describing your package.
 
