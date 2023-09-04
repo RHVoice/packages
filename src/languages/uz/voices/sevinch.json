@@ -5,8 +5,8 @@
 "demoUrl": "https://rhvoice.org/download/demo_sevinch_app.mp3",
 "version": {
 "major": 4,
-"minor": 4
+"minor": 5
 },
-"dataUrl": "https://rhvoice.org/download/RHVoice-voice-Uzbek-Sevinch-v4.4.zip",
-"dataMd5": "3G0SbG9pGEM1Hm+axYSZvA=="
+"dataUrl": "https://github.com/RHVoice/Sevinch-uzb/releases/download/4.5/RHVoice-voice-Uzbek-Sevinch-v4.5.zip",
+"dataMd5": "u7pAfdJ2g4LFLU2WzwyCOg=="
 }
