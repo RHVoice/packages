@@ -103,6 +103,15 @@ Some notes on the expected formats of values:
   ```
   openssl md5 -binary <YourPackageFile> | base64
   ```
+  Also, you can use the md5_hash Python script from the packages directory.
+  To use the md5_hash Python script, you need to specify a directory containing language and voice packages, and to specify a file name where MD5 hashes will be stored, (EG)
+  ```
+  md5_hash </home/packages> </home/md5_hashes.txt>
+  ``````
+  From Windows:
+  ```
+  python md5_hash <D:\packages> <D:\md5_hashes.txt>
+  ``````
 
 ### Check your changes
 

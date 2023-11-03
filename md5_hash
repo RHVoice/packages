@@ -1,0 +1,31 @@
+#!/usr/bin/python3
+import sys
+import os
+import hashlib
+import base64
+import zipfile
+
+def calculate_md5(input_file):
+    with open(input_file, 'rb') as f:
+        data = f.read()
+        md5hash = hashlib.md5(data).hexdigest()
+    return md5hash
+
+def calculate_base64(md5_hex):
+    base64_hash = base64.b64encode(bytes.fromhex(md5_hex)).decode()
+    return base64_hash
+
+if len(sys.argv)!=3:
+    print(sys.argv[0]+' directory_name file_name')
+    sys.exit(0)
+hashes = ""
+file_counter = 1
+files = os.listdir(sys.argv[1])
+for file in files:
+    if os.path.isfile(os.path.join(sys.argv[1], file)):
+        if zipfile.is_zipfile(os.path.join(sys.argv[1], file)):
+            hashes = hashes+file+"\nHASH:\n"+calculate_base64(calculate_md5(os.path.join(sys.argv[1], file)))+"\n"
+            file_counter = file_counter+1
+with open(sys.argv[2], "w") as f:
+    f.write(hashes)
+print('MD5 hash for '+str(file_counter)+' files has been calculated.')
