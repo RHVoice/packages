@@ -1,0 +1,13 @@
+{
+    "name": "Dünýä",
+    "id":"dunya",
+"ctry2code": "TM",
+"ctry3code": "TKM",
+"demoUrl": "https://s2.nonroutine.com/dunya.mp3",
+"version": {
+"major": 4,
+"minor": 5
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-voice-Turkmen-Dunya-v4.5.zip",
+"dataMd5": "GdGLbSAtXd51H8Swi2KSqQ=="
+}
