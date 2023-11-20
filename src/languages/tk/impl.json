@@ -1,0 +1,10 @@
+{
+  "name": "Turkmen",
+  "pseudoEnglish": false,
+"version": {
+"major": 1,
+"minor": 9
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-language-Turkmen-v1.9.zip",
+"dataMd5":"1ezu9pCztTUT+5lT561zlg=="
+}
