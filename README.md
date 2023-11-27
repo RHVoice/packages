@@ -84,6 +84,7 @@ pt | Esta voz não está instalada. Você está escutando uma amostra pré-grava
 ru | Этот голос не установлен. Вы слушаете заранее записанный пример.
 sk | Tento hlas nie je ešte nainštalovaný. Počúvate ukážkovú nahrávku slovenského hlasu.
 sq | Ky zë nuk është i instaluar. Po dëgjoni një shembull të regjistruar paraprakisht.
+sr| Ovaj glas nije instaliran. Vi slušate prethodno snimljen primer.
 tt | Бу тавыш җиһазга урнаштырылмаган. Сез алдан яздырылган мисалны тыңлыйсыз.
 uk | Цей голос не встановлено. Ви слухаєте попередньо записаний приклад.
 uz | ушбу овоз ўрнатилмаган, сиз аввалдан тайёрланган намунани тинглаяпсиз.
