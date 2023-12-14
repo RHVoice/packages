@@ -2,8 +2,8 @@
 "name": "Esperanto",
 "version": {
 "major": 1,
-"minor": 2
+"minor": 3
 },
-"dataUrl": "https://rhvoice.org/download/RHVoice-language-Esperanto-v1.2.zip",
-"dataMd5": "aWIb6DlXE/J2Iil+ON5sdQ=="
+"dataUrl": "https://github.com/RHVoice/Esperanto/releases/download/1.3/RHVoice-language-Esperanto-v1.3.zip",
+"dataMd5": "tFxpjf8iZNDRwGoJF7dOlA=="
 }

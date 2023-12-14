@@ -3,8 +3,8 @@
   "pseudoEnglish": true,
 "version": {
 "major": 1,
-"minor": 10
+"minor": 11
 },
-"dataUrl": "https://rhvoice.org/download/RHVoice-language-Tatar-v1.10.zip",
-"dataMd5": "uKyQNml1O4bScYfpt/MzCQ=="
+"dataUrl": "https://github.com/RHVoice/Tatar/releases/download/1.11/RHVoice-language-Tatar-v1.11.zip",
+"dataMd5": "CybYMQvBEoXRs4s+dM8VgA=="
 }
