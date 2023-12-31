@@ -1,0 +1,12 @@
+{
+"name": "Dilnavoz",
+"ctry2code": "UZ",
+"ctry3code": "UZB",
+"demoUrl": "https://github.com/RHVoice/dilnavoz-uzb/releases/download/4.0/dilnavoz.ogg",
+"version": {
+"major": 4,
+"minor": 0
+},
+"dataUrl": "https://github.com/RHVoice/dilnavoz-uzb/releases/download/4.0/RHVoice-voice-Uzbek-Dilnavoz-v4.0.zip",
+"dataMd5": "zq8d3WewSR35VjI0MFsXZQ=="
+}
