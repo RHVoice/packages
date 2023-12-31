@@ -1,0 +1,12 @@
+{
+"name": "Islom",
+"ctry2code": "UZ",
+"ctry3code": "UZB",
+"demoUrl": "https://github.com/RHVoice/islom-uzb/releases/download/4.1.1/islom.ogg",
+"version": {
+"major": 4,
+"minor": 1
+},
+"dataUrl": "https://github.com/RHVoice/islom-uzb/releases/download/4.1.1/RHVoice-voice-Uzbek-Islom-v4.1.zip",
+"dataMd5": "8KHMHI3YGDim/wlMZtm1ig=="
+}
