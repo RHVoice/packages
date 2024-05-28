@@ -1,0 +1,10 @@
+{
+  "name": "Nepali",
+  "pseudoEnglish": true,
+"version": {
+"major": 1,
+"minor": 5
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-language-Nepali-v1.5.zip",
+"dataMd5": "5ywvnX1sA04B5PgUviYYDQ=="
+}

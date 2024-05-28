@@ -1,0 +1,13 @@
+{
+    "name": "Dina",
+    "id":"dina",
+"ctry2code": "NP",
+"ctry3code": "NPL",
+"demoUrl": "https://rhvoice.org/download/demo_app_nepali_gamma.mp3",
+"version": {
+"major": 4,
+"minor": 2
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-voice-Nepali-Dina-v4.2.zip",
+"dataMd5": "qmClB7o10nsXpMkpJ1JZfQ=="
+}
