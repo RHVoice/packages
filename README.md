@@ -76,6 +76,7 @@ Language | Text
 cs | Tento hlas není nainstalován. Posloucháte předem nahraný vzorek.
 en | This voice is not installed. You are listening to a pre-recorded sample.
 eo | Ĉi tiu voĉo ne estas instalita. Vi aŭskultas antaŭregistritan ekzemplon.
+hr | Ovaj glas nije instaliran. Vi slušate prethodno snimljen primjer.
 ka | ეს ხმა არ არის დაინსტალირებული. თქვენ უსმენთ წინასწარ ჩაწერილ მაგალითს.
 ky | Бул үн орнотулган эмес. Сиз алдын ала жазылган үндү угуп жатасыз.
 mk | Овој глас не е инсталиран. Слушате претходно снимен примерок.
