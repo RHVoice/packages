@@ -1,0 +1,12 @@
+{
+"name": "Karmela",
+"ctry2code": "HR",
+"ctry3code": "HRV",
+"demoUrl": "https://github.com/RHVoice/karmela-hrv/releases/download/4.5/karmela.ogg",
+"version": {
+"major": 4,
+"minor": 5
+},
+"dataUrl": "https://github.com/RHVoice/karmela-hrv/releases/download/4.5/RHVoice-voice-Croatian-Karmela-v4.5.zip",
+"dataMd5": "htDh9GmQR3WmfPnQ1Oifdw=="
+}
