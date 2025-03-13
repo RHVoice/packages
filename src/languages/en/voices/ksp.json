@@ -2,11 +2,11 @@
 "name": "Ksp",
 "ctry2code": "IN",
 "ctry3code": "IND",
-"demoUrl": "https://github.com/RHVoice/ksp-eng/releases/download/4.4/ksp.ogg",
+"demoUrl": "https://github.com/RHVoice/ksp-eng/releases/download/4.5/ksp.ogg",
 "version": {
 "major": 4,
-"minor": 4
+"minor": 5
 },
-"dataUrl": "https://github.com/RHVoice/ksp-eng/releases/download/4.4/RHVoice-voice-English-Ksp-v4.4.zip",
-"dataMd5": "v9RChd2GZShuuzP9mlZLBA=="
+"dataUrl": "https://github.com/RHVoice/ksp-eng/releases/download/4.5/RHVoice-voice-English-Ksp-v4.5.zip",
+"dataMd5": "jc5ypVs/EhTczX8pBmZAUg=="
 }

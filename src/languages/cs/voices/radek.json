@@ -2,11 +2,11 @@
 "name": "Radek",
 "ctry2code": "Cz",
 "ctry3code": "CZE",
-"demoUrl": "https://github.com/RHVoice/radek-cze/releases/download/4.4/radek.ogg",
+"demoUrl": "https://github.com/RHVoice/radek-cze/releases/download/4.5/radek.ogg",
 "version": {
 "major": 4,
-"minor": 4
+"minor": 5
 },
-"dataUrl": "https://github.com/RHVoice/radek-cze/releases/download/4.4/RHVoice-voice-Czech-Radek-v4.4.zip",
-"dataMd5": "CyFleM70IA892dHpz8uqpg=="
+"dataUrl": "https://github.com/RHVoice/radek-cze/releases/download/4.5/RHVoice-voice-Czech-Radek-v4.5.zip",
+"dataMd5": "DD4wXpqnmqYokCjUg7v23Q=="
 }

@@ -1,0 +1,12 @@
+{
+"name": "Jasietka",
+"ctry2code": "SK",
+"ctry3code": "SVK",
+"demoUrl": "https://github.com/RHVoice/jasietka-slk/releases/download/4.0/jasietka.ogg",
+"version": {
+"major": 4,
+"minor": 0
+},
+"dataUrl": "https://github.com/RHVoice/jasietka-slk/releases/download/4.0/RHVoice-voice-Slovak-Jasietka-v4.0.zip",
+"dataMd5": "0iNALnuy4jCX0229UkRYjQ=="
+}

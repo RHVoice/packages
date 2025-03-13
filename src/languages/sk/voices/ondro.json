@@ -2,11 +2,11 @@
 "name": "Ondro",
 "ctry2code": "SK",
 "ctry3code": "SVK",
-"demoUrl": "https://github.com/RHVoice/ondro-slk/releases/download/v4.3/ondro.ogg",
+"demoUrl": "https://github.com/RHVoice/ondro-slk/releases/download/4.6/ondro.ogg",
 "version": {
 "major": 4,
-"minor": 4
+"minor": 6
 },
-"dataUrl": "https://github.com/RHVoice/ondro-slk/releases/download/4.4/RHVoice-voice-Slovak-Ondro-v4.4.zip",
-"dataMd5": "bRlNXWWeyESibYUSIgufdA=="
+"dataUrl": "https://github.com/RHVoice/ondro-slk/releases/download/4.6/RHVoice-voice-Slovak-Ondro-v4.6.zip",
+"dataMd5": "IbpPlCaPiOeWt9ci+ZBeLg=="
 }
