@@ -5,8 +5,8 @@
 "demoUrl": "https://github.com/RHVoice/zdenek-cze/releases/download/v4.4/zdenek.ogg",
 "version": {
 "major": 4,
-"minor": 4
+"minor": 6
 },
-"dataUrl": "https://github.com/RHVoice/zdenek-cze/releases/download/v4.4/RHVoice-voice-Czech-Zdenek-v4.4.zip",
-"dataMd5": "DsfL8ZhnBOZ9hqPUc62KLA=="
+"dataUrl": "https://github.com/RHVoice/zdenek-cze/releases/download/4.6/RHVoice-voice-Czech-Zdenek-v4.6.zip",
+"dataMd5": "EoM5CjWPF7eKIpDre8bD7A=="
 }
