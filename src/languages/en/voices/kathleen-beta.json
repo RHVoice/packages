@@ -1,0 +1,12 @@
+{
+"name": "Kathleen-beta",
+"ctry2code": "US",
+"ctry3code": "USA",
+"demoUrl": "https://github.com/rmcpantoja/kathleen/releases/download/v4.0/demo.ogg",
+"version": {
+"major": 4,
+"minor": 0
+},
+"dataUrl": "https://github.com/rmcpantoja/kathleen/releases/download/v4.0/RHVoice-voice-English-Kathleen-v4.0.zip",
+"dataMd5": "2kATQ2zpVEm7OmSNruJbhQ=="
+}
