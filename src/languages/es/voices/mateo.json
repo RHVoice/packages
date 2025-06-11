@@ -3,11 +3,11 @@
 "id": "mateo",
 "ctry2code": "EC",
 "ctry3code": "ECU",
-"demoUrl": "https://github.com/RHVoice/mateo-spa/releases/download/4.10/mateo-4.10.ogg",
+"demoUrl": "https://github.com/RHVoice/mateo-spa/releases/download/4.11/mateo-4.11.ogg",
 "version": {
 "major": 4,
-"minor": 10
+"minor": 11
 },
-"dataUrl": "https://github.com/RHVoice/mateo-spa/releases/download/4.10/RHVoice-voice-Spanish-Mateo-v4.10.zip",
-"dataMd5": "a0UOtsqlENAJuuyx+UuYUg=="
+"dataUrl": "https://github.com/RHVoice/mateo-spa/releases/download/4.11/RHVoice-voice-Spanish-Mateo-v4.11.zip",
+"dataMd5": "2XdOHjgNFj2JdIcTGhTYSA=="
 }
