@@ -1,0 +1,12 @@
+{
+"name": "Michal-Rus",
+"ctry2code": "BY",
+"ctry3code": "BLR",
+"demoUrl": "https://github.com/RHVoice/michal-rus/releases/download/4.1/demo-michal-rus.mp3",
+"version": {
+"major": 4,
+"minor": 1
+},
+"dataUrl": "https://github.com/RHVoice/michal-rus/releases/download/4.1/RHVoice-voice-Russian-Michal-Rus-v4.1.zip",
+"dataMd5": "fA0hkLc4Jj8IdbFlmj0Zgw=="
+}

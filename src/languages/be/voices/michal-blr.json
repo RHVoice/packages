@@ -1,0 +1,12 @@
+{
+"name": "Michal-Blr",
+"ctry2code": "BY",
+"ctry3code": "BLR",
+"demoUrl": "https://github.com/RHVoice/michal-blr/releases/download/4.5/demo-michal-blr.mp3",
+"version": {
+"major": 4,
+"minor": 5
+},
+"dataUrl": "https://github.com/RHVoice/michal-blr/releases/download/4.5/RHVoice-voice-Belarusian-Michal-Blr-v4.5.zip",
+"dataMd5": "BeOGrs3sn5j5l00Ps+8thg=="
+}

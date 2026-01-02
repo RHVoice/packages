@@ -1,0 +1,10 @@
+{
+  "name": "Belarusian",
+  "pseudoEnglish": false,
+"version": {
+"major": 1,
+"minor": 22
+},
+"dataUrl": "https://github.com/RHVoice/bel-bin/releases/download/1.22/RHVoice-language-Belarusian-v1.22.zip",
+"dataMd5": "NhSuJ5PSp4uyEdHCpc7oFw=="
+}

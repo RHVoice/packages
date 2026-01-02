@@ -1,0 +1,12 @@
+{
+"name": "Alena",
+"ctry2code": "BY",
+"ctry3code": "BLR",
+"demoUrl": "https://github.com/RHVoice/alena-blr/releases/download/4.2/demo-alena.mp3",
+"version": {
+"major": 4,
+"minor": 2
+},
+"dataUrl": "https://github.com/RHVoice/alena-blr/releases/download/4.2/RHVoice-voice-Belarusian-Alena-v4.2.zip",
+"dataMd5": "678S4NPok6ARBPtVOwtyqg=="
+}

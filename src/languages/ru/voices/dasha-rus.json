@@ -1,0 +1,12 @@
+{
+"name": "Dasha-Rus",
+"ctry2code": "BY",
+"ctry3code": "BLR",
+"demoUrl": "https://github.com/RHVoice/dasha-rus/releases/download/4.1/demo-dasha-rus.mp3",
+"version": {
+"major": 4,
+"minor": 1
+},
+"dataUrl": "https://github.com/RHVoice/dasha-rus/releases/download/4.1/RHVoice-voice-Russian-Dasha-Rus-v4.1.zip",
+"dataMd5": "VV9C6oCM5E0y4hWWrQaxgg=="
+}

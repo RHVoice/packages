@@ -1,0 +1,12 @@
+{
+"name": "Ryhor-Blr",
+"ctry2code": "BY",
+"ctry3code": "BLR",
+"demoUrl": "https://github.com/RHVoice/ryhor-blr/releases/download/4.3/demo-ryhor-blr.mp3",
+"version": {
+"major": 4,
+"minor": 3
+},
+"dataUrl": "https://github.com/RHVoice/ryhor-blr/releases/download/4.3/RHVoice-voice-Belarusian-Ryhor-Blr-v4.3.zip",
+"dataMd5": "qkzSqMildqSHHSP7gZl5Gg=="
+}

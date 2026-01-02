@@ -1,0 +1,12 @@
+{
+"name": "Lyudmila-blr",
+"ctry2code": "BY",
+"ctry3code": "BLR",
+"demoUrl": "https://github.com/RHVoice/lyudmila-blr/releases/download/4.8/demo-lyudmila-blr.mp3",
+"version": {
+"major": 4,
+"minor": 8
+},
+"dataUrl": "https://github.com/RHVoice/lyudmila-blr/releases/download/4.8/RHVoice-voice-Belarusian-Lyudmila-blr-v4.8.zip",
+"dataMd5": "E9+7in1GpE/OiGyxf+wJrg=="
+}
