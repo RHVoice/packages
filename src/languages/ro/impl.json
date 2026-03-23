@@ -1,0 +1,9 @@
+{
+"name": "Romanian",
+"version": {
+"major": 1,
+"minor": 1
+},
+"dataUrl": "https://github.com/RHVoice/romanian-bin/releases/download/1.1/RHVoice-language-Romanian-v1.1.zip",
+"dataMd5": "1ksmpfSdvheTD7OzUsBEDQ=="
+}

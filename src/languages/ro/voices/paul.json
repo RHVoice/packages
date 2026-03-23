@@ -1,0 +1,12 @@
+{
+"name": "Paul",
+"ctry2code": "RO",
+"ctry3code": "ROU",
+"demoUrl": "https://github.com/RHVoice/paul-ron/releases/download/4.2/demo-paul.ogg",
+"version": {
+"major": 4,
+"minor": 2
+},
+"dataUrl": "https://github.com/RHVoice/paul-ron/releases/download/4.2/RHVoice-voice-Romanian-Paul-v4.2.zip",
+"dataMd5": "AGA3Y0PnAItn9HFDx6b1GQ=="
+}
