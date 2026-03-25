@@ -1,0 +1,15 @@
+{
+"id": "lbf",
+"name": "Mia",
+"ctry2code": "LU",
+"ctry3code": "LUX",
+"demoUrl": "https://rhvoice.org/download/RHVvoice-Mia-demo.mp3",
+"secondLanguage":"english",
+"secondLanguageVoice":"slt",
+"version": {
+"major": 4,
+"minor": 7
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-voice-Luxembourgish-Mia-v4.7.zip",
+"dataMd5": "2rwWdJIqfethef4s73vxLw=="
+}

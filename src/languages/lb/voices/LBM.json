@@ -1,0 +1,15 @@
+{
+"id": "lbm",
+"name": "Mil",
+"ctry2code": "LU",
+"ctry3code": "LUX",
+"demoUrl": "https://rhvoice.org/download/RHVoice-Mil-demo.mp3",
+"secondLanguage":"english",
+"secondLanguageVoice":"alan",
+"version": {
+"major": 4,
+"minor": 7
+},
+"dataUrl": "https://rhvoice.org/download/RHVoice-voice-Luxembourgish-Mil-v4.7.zip",
+"dataMd5": "EgQsbZ7JABo1qhK1BBF6FA=="
+}
